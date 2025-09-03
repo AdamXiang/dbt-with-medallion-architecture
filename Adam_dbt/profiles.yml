@@ -1,0 +1,11 @@
+Adam_dbt:
+  outputs:
+    dev:
+      catalog: dbt
+      host: dbc-c8129fac-b580.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/15b57b8363943746
+      schema: default
+      threads: 1
+      token: dapi7c04cf350d11852ceda3ab4a7c232b76
+      type: databricks
+  target: dev
