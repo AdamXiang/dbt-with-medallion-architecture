@@ -7,7 +7,9 @@
 SELECT
   {% for col in columns_list %}
     {{ col }}
-    {% if not loop.last %}, {% endif %}
+    {% if not loop.last %}
+      , 
+    {% endif %}
   {% endfor %}
 FROM
   {{ ref('bronze_sales') }}
