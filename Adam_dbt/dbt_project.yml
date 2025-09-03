@@ -40,3 +40,6 @@ models:
     gold:
       +materialized: table
       schema: gold
+seeds:
+  Adam_dbt:
+    +schema: bronze
