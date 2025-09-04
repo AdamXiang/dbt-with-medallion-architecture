@@ -40,7 +40,7 @@ The repository provides an end-to-end example of how dbt can be applied to manag
    - Managed dependencies and isolation using **uv** for reproducibility.
 
 ## 📂 Project Structure
-
+```bash
 .
 ├── analyses/ # Custom SQL queries for validation
 ├── macros/ # Reusable functions for dbt models
@@ -49,8 +49,9 @@ The repository provides an end-to-end example of how dbt can be applied to manag
 ├── sources/ # Source references for Databricks
 ├── tests/ # Singular, generic, and custom tests
 └── README.md # Project documentation
+```
 
-````bash
+```bash
 
 ## ⚙️ Getting Started
 
@@ -70,7 +71,7 @@ source .venv/bin/activate   # Linux / MacOS
 
 # Install dependencies
 uv pip install -r requirements.txt
-````
+```
 
 ### Run dbt
 
@@ -104,3 +105,4 @@ CI/CD pipelines are configured to build against the correct target environment u
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
